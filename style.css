@@ -7,6 +7,7 @@
 }
 html {
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -245,5 +246,6 @@ footer a :hover {
         width: 90%;
     }
 }
+
 
 
