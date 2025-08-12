@@ -243,4 +243,8 @@ footer a :hover {
     .cta.dark .ono{
         display: none;
     }
+    .hero h1 {
+        width : 80% ;
+    }
 }
+
