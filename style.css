@@ -214,25 +214,49 @@ footer a :hover {
 }
 
 
-@media screen and (max-width : 1450px) {
+/* شاشات أكبر من 1450px */
+@media screen and (max-width: 1450px) {
     main {
         max-width: 1024px;
+        margin: auto;
     }
 }
 
-
-@media screen and (max-width : 768px) {
+/* تابلت وشاشات متوسطة */
+@media screen and (max-width: 1024px) {
     main {
-        max-width: 760px;
+        max-width: 90%; /* بدل رقم ثابت */
+        margin: auto;
     }
     .feature {
-        max-width : 400px
+        max-width: 80%; /* مرنة */
+        margin: auto;
+    }
+}
+
+/* موبايل */
+@media screen and (max-width: 768px) {
+    main {
+        max-width: 95%;
+        margin: auto;
+    }
+    .feature {
+        max-width: 100%;
+        margin: auto;
     }
     nav .logo {
         display: none;
     }
-    nav .nav-items .nav-item{
-        font-size: .8rem;
+    nav .nav-items .nav-item {
+        font-size: 0.8rem;
     }
 }
+
+/* موبايل صغير جدًا */
+@media screen and (max-width: 480px) {
+    nav .nav-items .nav-item {
+        font-size: 0.7rem;
+    }
+}
+
 
