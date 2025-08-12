@@ -240,4 +240,9 @@ footer a :hover {
     .cta.dark .ono{
         display: none;
     } 
+        .hero h1 {
+        font-size: 2rem;
+        width: 40%;
+    }
 }
+
