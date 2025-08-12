@@ -221,7 +221,7 @@ footer a :hover {
 }
 
 
-@media screen and (max-width : 1000px) {
+@media screen and (max-width : 768px) {
     main {
         max-width: 760px;
     }
@@ -235,3 +235,4 @@ footer a :hover {
         font-size: .8rem;
     }
 }
+
