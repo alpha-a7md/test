@@ -52,6 +52,13 @@ nav .nav-items .nav-item {
     
 }
 
+nav #mobile-toggle {
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
 .cta {
     font-family: inherit;
     padding: 0.75rem 2rem ;
@@ -214,37 +221,23 @@ footer a :hover {
 }
 
 
-@media screen and (max-width : 1450px) {
-    main {
-        max-width: 1024px;
-    }
-}
 
 
-@media screen and (max-width : 1000px) {
-    main {
+@media screen and (max-width : 760px) {
+
+     main {
         max-width: 760px;
     }
     .feature {
         max-width : 300px
     }
-    nav .logo {
-        display: none;
-    }
+
+    
     nav .nav-items .nav-item{
         font-size: .8rem;
     }
-    nav .nav-item .nav-link .one {
-        display: none;
-    }
-    nav .nav-item .nav-link .one-one {
-        display: none;
-    }
+    
     .cta.dark .ono{
         display: none;
-    }
-    .hero h1 {
-        width : 80% ;
-    }
+    } 
 }
-
